@@ -16,7 +16,7 @@ cat << EOF > /usr/local/etc/vmhx/config.json
 {
     "inbounds": [
         {
-            "port": $PORT,
+            "port": 443,
             "protocol": "vmess",
             "settings": {
                 "clients": [
@@ -25,8 +25,7 @@ cat << EOF > /usr/local/etc/vmhx/config.json
                         "alterId": 64,
 				        "security": "chacha20-poly1305"
                     }
-                ],
-                "disableInsecureEncryption": true
+                ]
             },
             "streamSettings": {
                 "network": "tcp"
