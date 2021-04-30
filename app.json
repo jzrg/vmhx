@@ -1,0 +1,14 @@
+{
+    "name": "vmhx",
+    "description": "Deploy vmhx on Heroku.",
+    "keywords": ["vmhx"],
+    "env": {
+        "UUID": {
+            "description": "UUID",
+            "value": "xxxx-xxxx-xxxx-xxxx-xxxx"
+        }
+    },
+    "website": "https://github.com/",
+    "repository": "https://github.com/jzrg/vmhx",
+    "stack": "container"
+}
